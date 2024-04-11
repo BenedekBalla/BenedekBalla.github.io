@@ -1,0 +1,63 @@
+/* Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; /* Choose your preferred font family */
+  color: #dfe1e6; /* Light pastel for text */
+  background-color: #242832; /* Dark background */
+}
+
+/* Section Styles */
+.section {
+  padding: 2rem; /* Adjust padding as needed */
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit text color from body */
+}
+
+a:hover {
+  color: #94a3b8; /* Light pastel blue for hover */
+}
+
+/* Pastel Text Class */
+.pastel-text {
+  color: #dfe1e6; /* Same light pastel for text as body */
+}
+
+/* Project Styles */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: calc(33% - 1.5rem); /* Adjust project width as needed */
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Light border for projects */
+  border-radius: 5px; /* Rounded corners for projects */
+}
