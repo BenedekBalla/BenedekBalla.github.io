@@ -90,3 +90,11 @@ img {
   border-radius: 50%; /* Create a circular image */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a slight shadow for depth */
 }
+
+.about-content {
+  flex: 1;  /* Allow the content to fill available space */
+}
+
+.profile-image {
+  margin-left: 1rem;  /* Add margin for spacing between image and text */
+}
