@@ -11,6 +11,7 @@ body {
 
   header {
     flex-direction: column; /* Stack elements vertically on mobile */
+    align-items: center;
   }
 
   nav ul {
@@ -21,11 +22,12 @@ body {
 
   .profile-image { /* Optional: Adjust image position on mobile if needed */
     margin: 0 auto 1rem; /* Center image horizontally and add space below on mobile */
+    align-items: center;
   }
 
   nav li {
     margin-bottom: 1rem; /* Add space between navigation links */
-    }
+  }
     
   }
 }
