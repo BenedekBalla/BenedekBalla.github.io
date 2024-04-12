@@ -25,6 +25,10 @@ body {
     align-items: center;
   }
 
+  .section {
+    padding: 1rem; /* Adjust padding as needed */
+  }
+
   nav li {
     margin-bottom: 1rem; /* Add space between navigation links */
   }
@@ -34,7 +38,7 @@ body {
 
 /* Section Styles */
 .section {
-  margin: 25px;
+  margin: 35px;
   padding: 1rem; /* Adjust padding as needed */
 }
 
