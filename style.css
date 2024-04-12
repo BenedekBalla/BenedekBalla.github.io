@@ -34,8 +34,7 @@ body {
 
 /* Section Styles */
 .section {
-  display: flex;
-  margin: 50px;
+  margin: 30px;
   padding: 1rem; /* Adjust padding as needed */
 }
 
