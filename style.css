@@ -35,8 +35,8 @@ body {
 /* Section Styles */
 .section {
   display: flex;
-  margin-left: 20px 
-  padding: 2rem; /* Adjust padding as needed */
+  margin: 50px;
+  padding: 1rem; /* Adjust padding as needed */
 }
 
 /* Header Styles */
