@@ -79,8 +79,8 @@ a:hover {
 
 /* Project Styles */
 .project-container {
-  width: 250px;
   display: flex;
+  flex: 1 1 200px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
