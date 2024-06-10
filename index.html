@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Benedek Balla | Portfolio</title> 
+  <title >Benedek Balla | Portfolio</title> 
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="dark-bg">
     <div class="sidebyside">
-      <h1>Benedek Balla</h1>
+      <h1 style="font-family: 'Courier New', monospace;">Benedek Balla</h1>
     </div>
     <div class="image">
       <img src="/images/gemini_generated_owl.jpg" alt="Profile Picture">
@@ -27,8 +27,8 @@
 
   <main class="main-content">
     <section id="about" class="section">
-        <h2 style="color: rgb(50,150,150);">About Me</h2>
-        <p style="font-family: 'Courier New', monospace;">
+        <h2 style="color: rgb(50,150,150);" style="font-family: 'Courier New', monospace;">About Me</h2>
+        <p>
         Hi there! My name is Benedek Balla, and I am a fourth year undergraduate student at the University of Toronto studying computer science
         with a minor in statistics. I am fasctinated by machine learning, and have an intense desire to contribute original research to the field!
         In 2025, I hope to start my graduate studies in computer science, and then pursue a career in industry where I aspire to work with experienced and enthusiastic people, 
@@ -37,51 +37,51 @@
     </section>
 
     <section id="projects" class="section">
-      <h2 class="pastel-text" style="color: rgb(50,150,150);">Projects</h2>
-          <h4> Title : Accelerating ML Algorithms with Nvidia GPUs</h4>
-          <h4> Timeline : May 2024 - Present </h4>
-          <h4> Supervisor : Maryam Mehri Dehnavi </h4>
-            <p class="pastel-text">
+      <h2 class="pastel-text" style="color: rgb(50,150,150);" style="font-family: 'Courier New', monospace;">Projects</h2>
+          <h4 style="font-family: Verdana, sans-serif;"> Title : Accelerating ML Algorithms with Nvidia GPUs</h4>
+          <h4 style="font-family: Verdana, sans-serif;"> Timeline : May 2024 - Present </h4>
+          <h4 style="font-family: Verdana, sans-serif;"> Supervisor : Maryam Mehri Dehnavi </h4>
+            <p class="pastel-text" style="font-family: Verdana, sans-serif;">
               At the time of writing (June 9th 2024 - having spent the day studying CUTLASS GEMM), I am 1 month into this project and I am absolutely loving it. Over the past weeks, I have learned 
               about Nvidia's Volta, Ampere, and Hopper GPU architectures, how these architectures work in tandem with the CUDA programming model,
               and how PyTorch's TorchDynamo and TorchInductor utilize OpenAI's Triton to automatically optimize high-level ML code to run faster on GPUs 
               via a set of hard-coded compiler passes. 
             </p>
-            <p>What did I learn?</p>
-            <ol start="0" margin="10px">
-              <li> C++. </li>
-              <li> Write efficient GPU kernels in CUDA and Triton. </li> 
-              <li> Nvidia GPU architectures of V100, A100, H100. </li>
-              <li> CUTLASS GEMM. </li>
-              <li> Just-in-time compilers, and compiler passes (E.g. TritonGPU IR passes). </li>
-              <li> MLIR and LLVM IR. </li>
-              <li> GPU-optimized ML algorithms (E.g. FlashAttention). </li> 
-              <li> Understand professional Github repos (E.g. Triton, CUTLASS). </li> 
+            <p style="font-family: Verdana, sans-serif;">What did I learn?</p>
+            <ol start="0">
+              <li style="font-family: Verdana, sans-serif;" margin="10px"> C++. </li>
+              <li style="font-family: Verdana, sans-serif;" margin="10px"> Write efficient GPU kernels in CUDA and Triton. </li> 
+              <li style="font-family: Verdana, sans-serif;" margin="10px"> Nvidia GPU architectures of V100, A100, H100. </li>
+              <li style="font-family: Verdana, sans-serif;" margin="10px"> CUTLASS GEMM. </li>
+              <li style="font-family: Verdana, sans-serif;" margin="10px"> Just-in-time compilers, and compiler passes (E.g. TritonGPU IR passes). </li>
+              <li style="font-family: Verdana, sans-serif;" margin="10px"> MLIR and LLVM IR. </li>
+              <li style="font-family: Verdana, sans-serif;" margin="10px"> GPU-optimized ML algorithms (E.g. FlashAttention). </li> 
+              <li style="font-family: Verdana, sans-serif;" margin="10px"> Understand professional Github repos (E.g. Triton, CUTLASS). </li> 
             </ol>
       <hr>
-          <h4> Title : DDPMs for Synthetic MSK-US Dataset Enrichment </h4>
-          <h4> Timeline : September 2023 - May 2024 </h4>
-          <h4> Supervisor : Pascal Tyrrell </h4>
-            <p class="pastel-text">
+          <h4 style="font-family: Verdana, sans-serif;"> Title : DDPMs for Synthetic MSK-US Dataset Enrichment </h4>
+          <h4 style="font-family: Verdana, sans-serif;"> Timeline : September 2023 - May 2024 </h4>
+          <h4 style="font-family: Verdana, sans-serif;"> Supervisor : Pascal Tyrrell </h4>
+            <p class="pastel-text" style="font-family: Verdana, sans-serif;">
             Over the course of 8 months, I set out to improve the performance of a fine-tuned EfficientNet model at diagnosing thickened synovium
             and recess distension in the knee joint space. To do so, I decided to enrich its tuning set using of MSK-US images using synthetic images
             generated by a DDPM. To evaluate my methodology, I compared the results achieved with synthetic images to simply using augmented images, 
             generated using most geometric transformations. My findings suggest that synthetic dataset enrichment boosted the diagnostic model's sensitivity
             by 4%, outperforming augmented enrichment! 
             </p>
-            <p>What did I learn?</p>
+            <p style="font-family: Verdana, sans-serif;">What did I learn?</p>
             <ol start="0"> 
-              <li> ML code with PyTorch, PyTorch Lightning, Matplotlib, OpenCV, Numpy. </li>
-              <li> Schedule and execute ML workloads on HPC clusters (Digital Research Alliance of Canada) with state-of-the-art Nvidia GPUs. </li>
-              <li> Writing my own research paper (currently deciding whether to publish it or not...), and reading others' research papers. </li>
-              <li> Denoising Diffusion Probabilistic Model mathematical theory and Python implementation. </li>
-              <li> Shell Script. </li>
+              <li style="font-family: Verdana, sans-serif;"> ML code with PyTorch, PyTorch Lightning, Matplotlib, OpenCV, Numpy. </li>
+              <li style="font-family: Verdana, sans-serif;"> Schedule and execute ML workloads on HPC clusters (Digital Research Alliance of Canada) with state-of-the-art Nvidia GPUs. </li>
+              <li style="font-family: Verdana, sans-serif;"> Writing my own research paper (currently deciding whether to publish it or not...), and reading others' research papers. </li>
+              <li style="font-family: Verdana, sans-serif;"> Denoising Diffusion Probabilistic Model mathematical theory and Python implementation. </li>
+              <li style="font-family: Verdana, sans-serif;"> Shell Script. </li>
             </ol>
     </section>
 
     <section id="contact" class="section">
-      <h2 class="pastel-text" style="color: rgb(50,150,150);">Contact</h2>
-      <p class="pastel-text">b.balla@mail.utoronto.ca</p>
+      <h2 class="pastel-text" style="color: rgb(50,150,150);" style="font-family: 'Courier New', monospace;">Contact</h2>
+      <p class="pastel-text" style="font-family: Verdana, sans-serif;">b.balla@mail.utoronto.ca</p>
     </section>
   </main>
 
