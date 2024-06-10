@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; /* Choose your preferred font family */
+  font-family: 'Courier New', monospace; /* Choose your preferred font family */
   color: #dfe1e6; /* Light pastel for text */
   background-color: #242832; /* Dark background */
 
