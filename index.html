@@ -40,46 +40,49 @@
           I am always seeking opportunities to collaborate with and learn from knowledgeable and enthusiastic people, so that together we can solve new challenges creatively! 
           Oh, and before I forget, thanks Gemini for the profile picture, and thanks ChatGPT for helping with the HTML! :) 
         </p>
+        <p style="font-family: Verdana, sans-serif;">
+          I am primarily interested in developing high performance machine learning systems and through this process discovering new insights about learning itself
+          to advance explainable AI research. In terms of applying my research, I am not particular, and love diffusion models, probabilistic models, and large language models equally!
+        </p>
     </section>
 
     <section id="projects" class="section">
       <h2 class="pastel-text" style="color: rgb(50,150,150);" style="font-family: 'Courier New', monospace;">Projects</h2>
-          <h4 style="font-family: Verdana, sans-serif;"> Title : High Performance ML</h4>
+          <h4 style="font-family: Verdana, sans-serif;"> Title : High Performance Machine Learning</h4>
           <h4 style="font-family: Verdana, sans-serif;"> Timeline : May 2024 - Present </h4>
           <h4 style="font-family: Verdana, sans-serif;"> Supervisor : Maryam Mehri Dehnavi </h4>
             <p class="pastel-text" style="font-family: Verdana, sans-serif;">
-              At the time of writing (June 2024), I have so far learned about Nvidia's GPU architectures, how these architectures work in tandem with the CUDA programming model,
-              and how PyTorch's TorchDynamo and TorchInductor utilize OpenAI's Triton to automatically optimize high-level ML code for GPUs via a set of hard-coded compiler passes. 
+              At the time of writing, I am working with 2 graduate students to implement a new quantization methdology for LLMs, optimized
+              specifically for the Nvidia GPU programming model and integrated with OpenAI Triton. 
             </p>
             <p style="font-family: Verdana, sans-serif;">What did I learn?</p>
             <ol start="0">
               <li style="font-family: Verdana, sans-serif;" > C++. </li>
-              <li style="font-family: Verdana, sans-serif;" > Write efficient GPU kernels in CUDA and Triton. </li> 
-              <li style="font-family: Verdana, sans-serif;" > Nvidia Ampere and Hopper architectures. </li>
-              <li style="font-family: Verdana, sans-serif;" > Nvidia CUTLASS GEMM implementation. </li> 
-              <li style="font-family: Verdana, sans-serif;" > Just-in-time compilers, and compiler passes (E.g. TritonGPU IR passes). </li>
-              <li style="font-family: Verdana, sans-serif;" > MLIR and LLVM IR. </li>
-              <li style="font-family: Verdana, sans-serif;" > GPU-optimized ML algorithms (E.g. FlashAttention). </li> 
+              <li style="font-family: Verdana, sans-serif;" > Write efficient GPU kernels in CUDA, CUTLASS / CuTe, and Triton. </li> 
+              <li style="font-family: Verdana, sans-serif;" > Nvidia Ampere and Hopper GPU architectures. </li>
+              <li style="font-family: Verdana, sans-serif;" > Triton behind the scenes: Triton IR and Triton GPU IR compiler passes, MLIR, LLVM. </li>
+              <li style="font-family: Verdana, sans-serif;" > PyTorch behind the scenes: TorchInductor and TorchDynamo. </li>
             </ol>
       <hr>
           <h4 style="font-family: Verdana, sans-serif;"> Title : Generative AI for Medical Imaging </h4>
           <h4 style="font-family: Verdana, sans-serif;"> Timeline : September 2023 - May 2024 </h4>
           <h4 style="font-family: Verdana, sans-serif;"> Supervisor : Pascal Tyrrell </h4>
             <p class="pastel-text" style="font-family: Verdana, sans-serif;">
-              Over 8 months, I set out to improve the performance of a fine-tuned EfficientNet model at diagnosing thickened synovium
-              and recess distension in the knee joint space. To accomplish this, I decided to enrich its tuning set using synthetically generated MSK-US images 
-              from a DDPM. The fact that I did not have access to a large amount of existing MSK-US images made it significantly harder to train my diffusion model. 
-              To evaluate my results and methodology, I compared EfficientNet's performance when trained on a dataset enriched with synthetic images against 
-              enrichment with augmented images, generated with geometric and intensity transformations. My findings suggest that synthetic dataset enrichment is prefereable in the domain of medical 
-              imaging, since the diagnostic model's sensitivity increased by 4%, and the consistency of synthetic images with real images encouraged the model to learn representations aligned with human decision-making heuristics. 
+              Over 8 months, I set out to improve the performance of a fine-tuned convolutional neural network at diagnosing thickened synovium
+              and knee joint recess distension. To accomplish this, I decided to enrich its fine-tuning set using synthetically generated musculoskeletal ultrasound images 
+              from a denoising diffusion probabilistic model. To evaluate my methodology, I compared the CNN's performance when trained on a dataset enriched with synthetic images against 
+              enrichment with augmented images and no enrichment at all. My results suggest that synthetic dataset enrichment is prefereable in the domain of medical 
+              imaging, and the synthetic images encourage the model to learn representations aligned with human decision-making heuristics.  
             </p>
+            <p class="pastel-text" style="font-family: Verdana, sans-serif;">
+              To learn more, please see the paper I published <a href="https://www.mdpi.com/2673-7426/4/3/106">here</a>!
+            </p>  
             <p style="font-family: Verdana, sans-serif;">What did I learn?</p>
             <ol start="0"> 
-              <li style="font-family: Verdana, sans-serif;"> Build ML models in Python with PyTorch, PyTorch Lightning, Matplotlib, OpenCV, Numpy. </li>
-              <li style="font-family: Verdana, sans-serif;"> Schedule and execute ML workloads on HPC clusters (Digital Research Alliance of Canada clusters). </li>
-              <li style="font-family: Verdana, sans-serif;"> Write a publishable research paper (link coming soon!), and reading state-of-the-art ML research papers. </li>
-              <li style="font-family: Verdana, sans-serif;"> The mathetmatical theory and Python implementation of Denoising Diffusion Probabilistic Models. </li>
-              <li style="font-family: Verdana, sans-serif;"> Shell Script. </li>
+              <li style="font-family: Verdana, sans-serif;"> Build deep learning models in Python with PyTorch and PyTorch Lightning. </li>
+              <li style="font-family: Verdana, sans-serif;"> Run ML workloads on high performance computing clusters (Digital Research Alliance of Canada). </li>
+              <li style="font-family: Verdana, sans-serif;"> Write a publishable research paper and read state-of-the-art ML research papers. </li>
+              <li style="font-family: Verdana, sans-serif;"> Shell Script (An absolute life saver for managing datasets!). </li>
             </ol>
        <hr>
           <h4 style="font-family: Verdana, sans-serif;"> Title : AI for Gate Detection in Autonomous Drone Racing </h4>
@@ -87,13 +90,13 @@
           <h4 style="font-family: Verdana, sans-serif;"> Supervisor : Chao Qin </h4>
             <p class="pastel-text" style="font-family: Verdana, sans-serif;">
               Joined a team of undergraduate, masters, and PhD students to build a competitive autonomous racing drone. I was tasked with finding
-              a deep-learning algorithm capable of detecting drone racing gates, real-time, on the limited compute of the onboard hardware. My final solution
-              successfully applied a shallow convolutional neural network and some smart filtering to improve inference time from over 300ms to less than 30ms. 
+              a deep-learning algorithm capable of detecting drone racing gates, real-time, on the limited compute of the onboard hardware. I applied a 
+              shallow convolutional neural network and some smart filtering to improve inference time from over 300ms to less than 30ms. 
             </p>
             <p style="font-family: Verdana, sans-serif;">What did I learn?</p>
             <ol start="0"> 
-              <li style="font-family: Verdana, sans-serif;"> State-of-the-art learning-based computer vision algorithms. </li>
-              <li style="font-family: Verdana, sans-serif;"> Code in the Robotics Operating System. </li>
+              <li style="font-family: Verdana, sans-serif;"> State-of-the-art learning-based computer vision algorithms (E.g. YOLO). </li>
+              <li style="font-family: Verdana, sans-serif;"> The Robotics Operating System. </li>
               <li style="font-family: Verdana, sans-serif;"> Sim-to-real transfer learning for training neural networks. </li>
             </ol>
     </section>
