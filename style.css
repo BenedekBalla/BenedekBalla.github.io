@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: 'Courier New', monospace; /* Choose your preferred font family */
   background-color: #e8ecea; 
-  color: #838383; /* Light pastel for text */ 
+  color: #dfe1e6; /* Light pastel for text */ 
 
   /* Media Query for Mobile Screens */
   @media screen and (max-width: 768px) {
@@ -74,7 +74,7 @@ a:hover {
 
 /* Pastel Text Class */
 .pastel-text {
-  color: #dfe1e6; /* Same light pastel for text as body */
+  color: #838383; /* Same light pastel for text as body */
 }
 
 /* Project Styles */
