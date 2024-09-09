@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: 'Courier New', monospace; /* Choose your preferred font family */
   background-color: #242832;
-/*   color: #dfe1e6; /* Light pastel for text */ */
+  color: #dfe1e6; /* Light pastel for text */
 /*   background-color: #242832; /* Dark background */ */
 
   /* Media Query for Mobile Screens */
