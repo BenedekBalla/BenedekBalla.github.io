@@ -3,8 +3,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Courier New', monospace; /* Choose your preferred font family */
-  background-color: #e8ecea; 
-  color: #dfe1e6; /* Light pastel for text */ 
+  background-color: #dfe1e6; 
+  color: #838383; /* Light pastel for text */ 
 
   /* Media Query for Mobile Screens */
   @media screen and (max-width: 768px) {
