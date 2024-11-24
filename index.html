@@ -35,70 +35,41 @@
     <section id="about" class="section">
         <h2 style="color: rgb(50,150,150);" style="font-family: 'Courier New', monospace;">About Me</h2>
         <p style="font-family: Verdana, sans-serif;">
-          Hi there! My name is Benedek Balla, I am a fourth year undergraduate student at the University of Toronto studying computer science
-          with a minor in statistics. I am fasctinated by machine learning, and have an intense desire to contribute original research to the field!
-          I am always seeking opportunities to collaborate with and learn from knowledgeable and enthusiastic people, so that together we can solve new challenges creatively! 
+          Hi there! My name is Benedek Balla, I'm a fourth year undergraduate student at the University of Toronto studying computer science with a minor in statistics. 
+          I am fasctinated by machine learning research, and am always seeking opportunities to collaborate with and learn from creative, knowledgeable, and enthusiastic people so that together we can contribute original reserach to the field! 
           Oh, and before I forget, thanks ChatGPT for helping with the HTML! :) 
         </p>
         <p style="font-family: Verdana, sans-serif;">
-          My research interests are: 1) Designing scalable and interpretable deep learning architectures. 2) Machine learning from synthetic data. 
-          3) Multi-modal machine learning (primarily vision and language). 4) Human-guided and multi-agent machine learning systems. 
+          My mission is to enable more research and people to benefit from ML by making models scalable, robust, (hopefully) interpretable, and trustworthy problem-solvers across multiple data modalities.
         </p>
     </section>
 
     <section id="projects" class="section">
       <h2 class="pastel-text" style="color: rgb(50,150,150);" style="font-family: 'Courier New', monospace;">Publications and Research</h2>
-          <h4 style="font-family: Verdana, sans-serif;"> Title : <span style="font-weight:normal;font-family:Verdana,sans-serif;"> High Performance Machine Learning </span> </h4>
+          <h4 style="font-family: Verdana, sans-serif;"> Title : <span style="font-weight:normal;font-family:Verdana,sans-serif;"> Machine Learning Performance Optimization </span> </h4>
           <h4 style="font-family: Verdana, sans-serif;"> Timeline : <span style="font-weight:normal;font-family:Verdana,sans-serif;"> May 2024 - Present </span>  </h4>
           <h4 style="font-family: Verdana, sans-serif;"> Supervisor : <span style="font-weight:normal;font-family:Verdana,sans-serif;"> Maryam Mehri Dehnavi </span></h4>
             <p class="pastel-text" style="font-family: Verdana, sans-serif;">
-              I partnered with 2 graduate students to implement a new quantization method for LLMs to increase the efficiency of knowledge distillation.
+              Partnered with 2 graduate students to implement a new post-training group quantization method for LLMs designed with GPU architecture in mind.
             </p>
-            <p style="font-family: Verdana, sans-serif;">What did I learn?</p>
-            <ol start="0">
-              <li style="font-family: Verdana, sans-serif;" > C++. </li>
-              <li style="font-family: Verdana, sans-serif;" > Quantization, pruning and sparsity, low-rank adapters. </li> 
-              <li style="font-family: Verdana, sans-serif;" > Write efficient GPU kernels in CUDA, CUTLASS / CuTe, and Triton. </li> 
-              <li style="font-family: Verdana, sans-serif;" > Nvidia Ampere and Hopper GPU architectures. </li>
-              <li style="font-family: Verdana, sans-serif;" > Triton behind the scenes: Triton IR and Triton GPU IR compiler passes, MLIR, LLVM. </li>
-              <li style="font-family: Verdana, sans-serif;" > PyTorch behind the scenes: TorchInductor and TorchDynamo. </li>
-            </ol>
       <hr>
           <h4 style="font-family: Verdana, sans-serif;"> Title : <span style="font-weight:normal;font-family:Verdana,sans-serif;"> Generative AI for Medical Imaging </span> </h4>
           <h4 style="font-family: Verdana, sans-serif;"> Timeline : <span style="font-weight:normal;font-family:Verdana,sans-serif;"> September 2023 - May 2024 </span> </h4>
           <h4 style="font-family: Verdana, sans-serif;"> Supervisor : <span style="font-weight:normal;font-family:Verdana,sans-serif;"> Pascal Tyrrell </span> </h4>
           <h4 style="font-family: Verdana, sans-serif;"> Publication : <span style="font-weight:normal;color:rgb(50,150,150);font-family:Verdana,sans-serif;"><b>Balla, B.</b>; Hibi, A.; Tyrrell, P.N. Diffusion-Based Image Synthesis or Traditional Augmentation for Enriching Musculoskeletal Ultrasound Datasets. BioMedInformatics 2024, 4, 1934-1948.</span></h4> 
           <p class="pastel-text" style="font-family: Verdana, sans-serif;">
-            Over 8 months, I set out to improve the performance of a fine-tuned convolutional neural network at diagnosing thickened synovium
-            and knee joint recess distension. To accomplish this, I decided to enrich its fine-tuning set using synthetically generated musculoskeletal ultrasound images 
-            from a denoising diffusion probabilistic model. To evaluate my methodology, I compared the CNN's performance when trained on a dataset enriched with synthetic images against 
-            enrichment with augmented images and no enrichment at all. My results suggest that synthetic dataset enrichment is prefereable in the domain of medical 
-            imaging, and the synthetic images encourage the model to learn representations aligned with human decision-making heuristics.
+            Synthesized musculoskeletal ultrasound images with denoising diffusion probabilistic models and evaluated the synthetic images by training a convolutional neural network to diagnose thickened synovium. 
           </p>
             <p style="font-family: Verdana, sans-serif;">
               To learn more, please see the paper I published <u><b><a href="https://www.mdpi.com/2673-7426/4/3/106">here</a></b></u>!
             </p>  
-            <p style="font-family: Verdana, sans-serif;">What did I learn?</p>
-            <ol start="0"> 
-              <li style="font-family: Verdana, sans-serif;"> Build deep learning models in Python with PyTorch and PyTorch Lightning. </li>
-              <li style="font-family: Verdana, sans-serif;"> Run ML workloads on high performance computing clusters (Digital Research Alliance of Canada). </li>
-              <li style="font-family: Verdana, sans-serif;"> Write a publishable research paper and read state-of-the-art ML research papers. </li>
-              <li style="font-family: Verdana, sans-serif;"> Shell Script. </li>
-            </ol>
        <hr>
-          <h4 style="font-family: Verdana, sans-serif;"> Title : <span style="font-weight:normal;font-family:Verdana,sans-serif;"> AI for Gate Detection in Autonomous Drone Racing </span> </h4>
+          <h4 style="font-family: Verdana, sans-serif;"> Title : <span style="font-weight:normal;font-family:Verdana,sans-serif;"> AI for Autonomous Drone Racing </span> </h4>
           <h4 style="font-family: Verdana, sans-serif;"> Timeline : <span style="font-weight:normal;font-family:Verdana,sans-serif;"> May 2023 - September 2023 </span> </h4>
           <h4 style="font-family: Verdana, sans-serif;"> Supervisor : <span style="font-weight:normal;font-family:Verdana,sans-serif;"> Chao Qin </span> </h4>
             <p class="pastel-text" style="font-family: Verdana, sans-serif;">
-              Joined a team of undergraduate and graduate students to build a competitive autonomous racing drone. Using a shallow convolutional neural network, 
-              I was able to improve the latency of racing gate detection by over 10X while remaining robust to motion-blur and variable lighting conditions.
+              Using a convolutional neural network, improved the latency of drone racing gate detection by 10X.
             </p>
-            <p style="font-family: Verdana, sans-serif;">What did I learn?</p>
-            <ol start="0"> 
-              <li style="font-family: Verdana, sans-serif;"> State-of-the-art learning-based computer vision algorithms (E.g. YOLO). </li>
-              <li style="font-family: Verdana, sans-serif;"> The Robotics Operating System. </li>
-              <li style="font-family: Verdana, sans-serif;"> Sim-to-real transfer learning for training neural networks. </li>
-            </ol>
     </section>
 
     <section id="code" class="section">
